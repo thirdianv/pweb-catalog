@@ -1,0 +1,116 @@
+body {
+  background-color: #2a0e1f;
+  color: #333;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  margin: auto;
+  height: auto;
+  background: #1b0913;
+  color: black;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+}
+
+.brand {
+  font-weight: bold;
+  /* float: right; */
+}
+
+.header a {
+  color: black;
+  text-decoration: none;
+  float: left;
+}
+
+.navbar {
+  line-height: 50px;
+}
+
+.navbar a {
+  padding: 0px 36px;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid #1b0913;
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  margin: 20px;
+}
+
+h2 {
+  color: white;
+  margin: 20px;
+}
+
+.category-name {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.container-pics {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+}
+
+.container-desc {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+.desc-box {
+  padding: 20px 100px;
+}
+
+.desc p {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+h3 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.price p {
+  text-align: center;
+  color: rgb(0, 141, 24);
+  font-weight: bold;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  float: left;
+  width: 100%;
+  text-align: center;
+  background: black;
+}
+
+.footer p {
+  margin: auto;
+  float: left;
+  width: 100%;
+  text-align: center;
+  background: black;
+}
+
+.navbar a:hover {
+  background-color: grey;
+}
